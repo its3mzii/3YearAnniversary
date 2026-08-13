@@ -2,7 +2,7 @@
 const start = document.getElementById('start');
 const wrongAnswer = document.getElementById('wrongAnswer');
 const anniversaryCard = document.getElementById('anniversaryCard');
-const countdown = document.getElementById('countdown');
+const counter = document.getElementById('relationshipCounter');
 
 // get each button
 const yesBtn = document.getElementById('yesBtn');
@@ -25,9 +25,9 @@ function showState(state) {
   start.style.display = 'none';
   wrongAnswer.style.display = 'none';
   anniversaryCard.style.display = 'none';
-  countdown.style.display = 'none';
+  relationshipCounter.style.display = 'none';
 
-  state.style.display = 'block';
+  state.style.display = 'flex';
 }
 
 // show the start state initially
@@ -48,7 +48,7 @@ tryAgainBtn.addEventListener('click', () => {
 });
 
 cardBtn.addEventListener('click', () => {
-  showState(countdown);
+  showState(relationshipCounter);
 });
 
 backBtn.addEventListener('click', () => {
