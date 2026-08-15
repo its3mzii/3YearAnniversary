@@ -1,0 +1,32 @@
+/*  3. State 2 - Wrong Answer */
+#wrongAnswer {
+    width: 800px;
+    height: 450px;
+
+    padding: 30px;
+
+    border-radius: 30px;
+
+    background-color: #fff1cb;
+
+    text-align: center;
+
+    position: relative;
+}
+
+#wrongAnswer img {
+    width: 170px;
+    height: 150px;
+
+    object-fit: cover;
+
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#tryAgainBtn {
+    position: absolute;
+
+    bottom: 30px;
+    right: 30px;
+}

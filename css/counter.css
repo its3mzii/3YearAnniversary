@@ -1,0 +1,29 @@
+/*  5. State 4 - Relationship Counter */
+#relationshipCounter {
+    width: 500px;
+    height: 550px;
+
+    padding: 45px 25px;
+
+    background-color: #fff1cb;
+
+    border-radius: 30px;
+
+    text-align: center;
+}
+
+#counterTime {
+    background-color: #75172c;
+    color: #ffffff;
+
+    padding: 20px 10px;
+    margin: 20px 0;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#counterTime {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

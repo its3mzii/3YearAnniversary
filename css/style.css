@@ -1,4 +1,4 @@
-/*  1. Global Styles */
+/*  Global Styles */
 
 * {
     box-sizing: border-box;
@@ -23,6 +23,8 @@ body {
     color: #75172c;
    }
 
+
+   /* Global Font Styling */
 h1 {
     font-family: "Charm", cursive;
     font-weight: 700;
@@ -38,132 +40,15 @@ p {
    }
 
 
-/*  2. State 1 - Opening */
-#start {
-    width: 800px;
-    height: 450px;
 
-    padding: 45px;
-
-    border-radius: 30px;
-
-    background-color: #fff1cb;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.startButtons {
-    margin-top: auto;
-}
-
-#start h1 {
-    margin: 0 0 10px;
-}
-
-
-#start p {
-    margin: 0 0 25px;
-}
- 
-#start button {
-    width: 155px;
-    height: 60px;
-    margin: 0 18px;
-}
-
-/*  3. State 2 - Wrong Answer */
-#wrongAnswer {
-    width: 800px;
-    height: 450px;
-
-    padding: 30px;
-
-    border-radius: 30px;
-
-    background-color: #fff1cb;
-
-    text-align: center;
-
-    position: relative;
-}
-
-#wrongAnswer img {
-    width: 170px;
-    height: 150px;
-
-    object-fit: cover;
-
-    display: block;
-    margin: 0 auto 20px;
-}
-
-#tryAgainBtn {
-    position: absolute;
-
-    bottom: 30px;
-    right: 30px;
-}
-
-/*  4. State 3 - Anniversary Card */
-#anniversaryCard {
-    width: 800px;
-    height: 450px;
-
-    padding: 35px 40px;
-
-    border-radius: 30px;
-
-    background-color: #fff1cb;
-}
-
-#anniversaryCard h1 {
-    text-align: center;
-    margin-top: 0;
-}
-
-#anniversaryCard p {
-    text-align: left;
-    line-height: 1.4;
-}
-
-/*  5. State 4 - Relationship Counter */
-#relationshipCounter {
-    width: 500px;
-    height: 550px;
-
-    padding: 45px 25px;
-
-    background-color: #fff1cb;
-
-    border-radius: 30px;
-
-    text-align: center;
-}
-
-#counterTime {
-    background-color: #75172c;
-    color: #ffffff;
-
-    padding: 20px 10px;
-    margin: 20px 0;
-
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-#counterTime {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-/*  6. Button */
+   /*  Button Styling */
 button {
     background-color: #fff5dd;
     color: #75172c;
 
     padding: 10px 20px;
+    border: 0px solid #0f0003;
+    border-radius: 5px;
 
     font-family: "DM Serif Display", serif;
     font-weight: 400;
@@ -172,7 +57,7 @@ button {
     cursor: pointer;
 }
 
-/*  7. Responsive / Mobile */
+/*  Responsive / Mobile Settings */
 @media (max-width: 600px) {
 
     #start,
