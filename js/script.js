@@ -24,7 +24,7 @@ const clickSound = new Audio('assets/sounds/click.mp3');
 
 const bgm = new Audio('assets/sounds/bgm.mp3');
 bgm.loop = true;
-bgm.volume = 0.3;
+bgm.volume = 0.2;
 
 
 // show a specific state
