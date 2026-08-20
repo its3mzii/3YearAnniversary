@@ -54,21 +54,6 @@ button {
     cursor: pointer;
 }
 
-/* Responsive / Mobile Settings */
-@media (max-width: 600px) {
-
-    #start,
-    #wrongAnswer,
-    #anniversaryCard {
-        width: 90%;
-    }
-
-    #relationshipCounter {
-        width: 90%;
-    }
-
-}
-
 
 /* =======================
 Start Page Styling
@@ -134,7 +119,7 @@ Wrong Answer Page Styling
     height: 50px;
     margin: 0 18px;
     font-size: 1rem;
-    margin-top: bottom;
+    margin-top: auto;
 }
 
 #wrongAnswer img{
@@ -174,7 +159,7 @@ Card Page Styling
     height: 50px;
     margin: 0 18px;
     font-size: 1rem;
-    margin-top: bottom;
+    margin-top: auto;
 }
 
 #anniversaryCard h1 {
@@ -247,4 +232,91 @@ Card Page Styling
     margin: 0 18px;
     font-size: 1rem;
     margin-top: auto;
+}
+
+
+
+
+
+/* Responsive / Mobile Settings */
+@media (max-width: 600px) {
+
+    #start,
+    #wrongAnswer,
+    #anniversaryCard,
+    #relationshipCounter {
+        width: 90%;
+        height: auto;
+        min-height: 500px;
+        padding: 25px;
+    }
+
+    /* Start page */
+    #start h1 {
+        font-size: 2.8rem;
+    }
+
+    #start p {
+        font-size: 1.5rem;
+    }
+
+    #start button {
+        width: 200px;
+        height: 70px;
+        margin: 8px 0;
+        font-size: 1.5rem;
+    }
+
+    /* Wrong answer page */
+    #wrongAnswer img {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+    }
+
+    #tryAgainBtn {
+        width: 150px;
+        height: 50px;
+        margin: 10px 0;
+    }
+
+    /* Anniversary card */
+    #anniversaryCard h1 {
+        font-size: 2.3rem;
+    }
+
+    #anniversaryCard p {
+        font-size: 1.1rem;
+    }
+
+    #cardBtn {
+        width: 150px;
+        height: 50px;
+        margin: 10px 0;
+    }
+
+    /* Counter */
+    #relationshipCounter h1 {
+        font-size: 2.3rem;
+    }
+
+    #counter {
+        width: 100%;
+        gap: 5px;
+        padding: 15px 5px;
+    }
+
+    .timeBox span {
+        font-size: 2rem;
+    }
+
+    .timeBox p {
+        font-size: 0.9rem;
+    }
+
+    #backBtn {
+        width: 150px;
+        height: 50px;
+        margin: 10px 0;
+    }
 }
