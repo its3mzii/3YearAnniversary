@@ -1,0 +1,89 @@
+/* ================
+    Start Screen
+=================== */
+
+.startButtons {
+    margin-top: auto;
+}
+
+
+
+
+
+/* ======================
+        Wrong Answer
+    ===================== */
+
+#wrongAnswer h1 {
+    margin: 0 0 10px;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: auto;
+}
+
+#wrongAnswer img {
+    width: 170px;
+    height: 150px;
+
+    object-fit: cover;
+
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#tryAgainBtn {
+    position: absolute;
+
+    bottom: 30px;
+    right: 30px;
+}
+
+
+
+
+/*  =======================
+        Anniversary Card
+=========================== */
+
+#anniversaryCard h1 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 2.5rem;
+}
+
+#anniversaryCard p {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+#cardBtn button {
+    margin-top: auto;
+    width: 450px;
+    height: 300px;
+    margin: 0 18px;
+    font-size: 2rem;
+}
+
+
+
+
+/* =================
+  Relationship Counter
+  =================== */
+
+#counterTime {
+    background-color: #75172c;
+    color: #ffffff;
+
+    padding: 20px 10px;
+    margin: 20px 0;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#counterTime {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

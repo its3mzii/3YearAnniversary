@@ -7,10 +7,6 @@
         <title>Happy Anniversary ♡</title>
 
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/wrongAnswer.css">
-        <link rel="stylesheet" href="css/card.css">
-        <link rel="stylesheet" href="css/counter.css">
-        <link rel="stylesheet" href="css/start.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,6 +22,7 @@
                 <h1>Happy Anniversary!</h1>
              </br>
                 <p> Do you love me?</p>
+            </br>
 
                 <div class="startButtons">
                     <button id="yesBtn">Yes ♡</button>
@@ -38,8 +35,6 @@
              <!-- State 2: Wrong Answer-->
               <section id="wrongAnswer">
 
-                <h1> Wrong answer.</h1>
-                
                 <img src="assets/images/angry-cat.jpg" alt="angry cat">
 
                 <button id="tryAgainBtn">Try again.</button>
@@ -52,7 +47,15 @@
                 <h1>Happy 3 Year Anniversary</h1>
 
                 <p>
-                    Message text goes here
+                    Dear Poopy, <br> <br>
+                    I’m so grateful to have you in my life, you’re my best friend,
+                    partner in crime, rock, person to come to about my good times and the bad.
+                    I love you so so much, and I couldn’t imagine anyone else being in silly
+                    jail with me. I hope you love your present, just kidding I know you will
+                    (I will be the reigning gift champion!!). <br><br>
+                    I love you forever and always, <br>
+                    Your Em ♡
+
                 </p>
 
                 <button id="cardBtn">Click here!</button>
@@ -64,21 +67,32 @@
 
                 <h1>We've been together for...</h1>
 
+                <br>
+
                 <!-- Countdown Timer-->
-                <div id="counterTime">
-                    <span id="daysNumber">0000</span>:
-                    <span id="hoursNumber">00</span>:
-                    <span id="minutesNumber">00</span>:
-                    <span id="secondsNumber">00</span>
+                <div id="counter">
+                    <div class="timeBox">
+                        <span id="daysNumber">0000</span>
+                        <p>Days</p>
+                    </div>
+
+                    <div class="timeBox">
+                        <span id="hoursNumber">00</span>
+                        <p>Hours</p>
+                    </div>
+
+                    <div class="timeBox">
+                        <span id="minutesNumber">00</span>
+                        <p>Minutes</p>
+                    </div>
+
+                    <div class="timeBox">
+                        <span id="secondsNumber">00</span>
+                        <p>Seconds</p>
+                    </div>
                 </div>
 
-                <!-- Countdown Labels-->
-                 <div id="counterLabels">
-                    <span>days</span>
-                    <span>hours</span>
-                    <span>minutes</span>
-                    <span>seconds</span>
-                 </div>
+                <br>
 
                 <button id="backBtn">Back to card</button>
              </section>

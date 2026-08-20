@@ -19,6 +19,13 @@ const secondsTimer = document.getElementById('secondsNumber');
 
 const anniversaryDate = new Date('2023-08-22T00:00:00');
 
+// sound effects
+const clickSound = new Audio('assets/sounds/click.mp3');
+
+const bgm = new Audio('assets/sounds/bgm.mp3');
+bgm.loop = true;
+bgm.volume = 0.3;
+
 
 // show a specific state
 function showState(state) {
@@ -36,22 +43,31 @@ showState(start);
 // event listeners for buttons
 
 yesBtn.addEventListener('click', () => {
+  clickSound.currentTime = 0;
+  clickSound.play();
+
+  bgm.play();
+  
   showState(anniversaryCard);
 });
 
 noBtn.addEventListener('click', () => {
+  clickSound.play();
   showState(wrongAnswer);
 });
 
 tryAgainBtn.addEventListener('click', () => {
+  clickSound.play();
   showState(start);
 });
 
 cardBtn.addEventListener('click', () => {
+  clickSound.play();
   showState(relationshipCounter);
 });
 
 backBtn.addEventListener('click', () => {
+  clickSound.play();
   showState(anniversaryCard);
 });
 
